@@ -51,4 +51,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/noam-hadad-legend:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/Noam-Hadad11:latest
