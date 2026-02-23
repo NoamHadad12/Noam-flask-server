@@ -52,4 +52,5 @@ jobs:
         with:
           context: .
           push: true
+          # Build and push the image to Docker Hub
           tags: ${{ secrets.DOCKER_USERNAME }}/noam-hadad11:latest
